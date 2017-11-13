@@ -1,2 +1,2 @@
-# newsfeed
-Simple application which allow you to check current news
+# NEWSFEED
+Simple application which allows you to check the current news
