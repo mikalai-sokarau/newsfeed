@@ -1,0 +1,30 @@
+img {
+    width: 100%;
+}
+
+.main-news-item {
+    width: 67%;
+    padding: 10px;
+    margin: auto;
+}
+
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.news-item {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .news-item {
+        width: 50%;
+    }
+}
